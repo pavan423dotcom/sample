@@ -1,0 +1,22 @@
+echo "$(ls)" -        this will execute 'ls' command and list all files or directory in present path. Also print output in columns
+echo '$(ls)' -        this will be treated as msg and display output as $(ls)
+echo  $(ls)  -        this will execute 'ls' command and list all files or directory in present path. Also print output in row
+echo  $x 
+echo "$x"
+echo "${x}"
+echo -e "$x \nthis will print in new line $y"    - all commands are used to display output of a variable  
+
+
+uname      -         OS of server can be find
+uname -n   -         hostname of server
+ifconfig   -         ip address of server
+uptime     -         server uptime is displayed
+
+
+seq  start  end
+seq  start  step  end
+
+echo{start..end} 
+echo {start..end..step}              
+
+ 
